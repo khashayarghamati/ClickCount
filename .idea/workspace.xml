@@ -15,7 +15,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="develop_setting.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ClickCount/ClickCount/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+              <folding>
+                <element signature="e#425#683#0" expanded="false" />
+                <element signature="e#804#1059#0" expanded="false" />
+                <element signature="e#1174#1419#0" expanded="false" />
+                <element signature="e#1496#1889#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ClickCount/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="develop_setting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ClickCount/config/setting/develop_setting.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -38,23 +63,12 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ClickCount/ClickCount/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="225">
               <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
               <folding>
                 <element signature="e#0#66#0" expanded="true" />
                 <element signature="e#273#1626#0" expanded="false" />
-                <element signature="e#1737#1812#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ClickCount/config/setting/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,11 +126,12 @@
         <option value="$PROJECT_DIR$/HitCount/abstracts.py" />
         <option value="$PROJECT_DIR$/../ClickCount/config/urls.py" />
         <option value="$PROJECT_DIR$/../ClickCount/config/setting/settings.py" />
-        <option value="$PROJECT_DIR$/../ClickCount/ClickCount/views.py" />
         <option value="$PROJECT_DIR$/../ClickCount/config/wsgi.py" />
         <option value="$PROJECT_DIR$/../ClickCount/config/setting/develop_setting.py" />
         <option value="$PROJECT_DIR$/../ClickCount/manage.py" />
         <option value="$PROJECT_DIR$/../ClickCount/config/setting/base_setting.py" />
+        <option value="$PROJECT_DIR$/../ClickCount/ClickCount/views.py" />
+        <option value="$PROJECT_DIR$/../ClickCount/.gitignore" />
       </list>
     </option>
   </component>
@@ -171,6 +186,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClickCount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClickCount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClickCount" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,7 +567,6 @@
           <folding>
             <element signature="e#0#66#0" expanded="true" />
             <element signature="e#273#1626#0" expanded="false" />
-            <element signature="e#1737#1812#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -628,15 +656,7 @@
           <folding>
             <element signature="e#0#66#0" expanded="true" />
             <element signature="e#273#1626#0" expanded="false" />
-            <element signature="e#1737#1812#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ClickCount/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -778,19 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ClickCount/ClickCount/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
-          <folding>
-            <element signature="e#425#683#0" expanded="false" />
-            <element signature="e#804#1059#0" expanded="false" />
-            <element signature="e#1174#1419#0" expanded="false" />
-            <element signature="e#1496#1889#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ClickCount/ClickCount/validators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -852,18 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ClickCount/ClickCount/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-            <element signature="e#273#1626#0" expanded="false" />
-            <element signature="e#1737#1812#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ClickCount/config/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -910,6 +905,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ClickCount/ClickCount/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#273#1626#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ClickCount/ClickCount/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+          <folding>
+            <element signature="e#425#683#0" expanded="false" />
+            <element signature="e#804#1059#0" expanded="false" />
+            <element signature="e#1174#1419#0" expanded="false" />
+            <element signature="e#1496#1889#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ClickCount/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ClickCount/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding />
         </state>
       </provider>
