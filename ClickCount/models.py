@@ -1,4 +1,3 @@
-from django.contrib.postgres.fields import JSONField
 from django.db import models
 
 from .abstracts import (ButtonCountAbstract, ImageCountAbstract,
@@ -45,8 +44,17 @@ class UrlClickCount(URLCountAbstract, TimeStampAbstractModel,
 
 class UrlMonitoring(TimeStampAbstractModel, UserCommonInfoAbstracts):
     url = models.URLField(unique=True, verbose_name=Strings.urlField_title)
-    userSpendTime = JSONField(verbose_name=Strings.userSpendTime_title)
-    count = models.BigIntegerField(verbose_name=Strings.count_title)
+
+    openTime = models.DateTimeField(
+        verbose_name=Strings.openSpendTime_title)
+
+    closeTime = models.DateTimeField(
+        null=True,
+        blank=True,
+        verbose_name=Strings.closeSpendTime_title)
+
+    isClose = models.BooleanField(default=False,
+                                  verbose_name=Strings.isClose_title)
 
     def __str__(self):
         return self.url

@@ -20,7 +20,9 @@ class Strings(object):
     userIP_title = 'آدرس آی پی کاربر'
     userSession_title = 'آدرس نشست کاربر'
 
-    userSpendTime_title = 'زمان حضور کاربر'
+    closeSpendTime_title = 'زمان بستن صفحه'
+    openSpendTime_title = 'زمان باز کردن صفحه'
+    isClose_title = 'آیا بسته شده است صفحه؟'
 
     buttonClickCount_title = 'اطلاعات دکمه ها'
     buttonClickCount_plural_title = 'اطلاعات دکمه'

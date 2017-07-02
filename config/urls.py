@@ -16,9 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from ClickCount.views import ClickView
+from ClickCount.views import ClickView, UrlTimeDurationView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^click/', ClickView.as_view()),
+    url(r'^url/', UrlTimeDurationView.as_view()),
 ]

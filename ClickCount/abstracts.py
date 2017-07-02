@@ -1,5 +1,5 @@
-from django.utils import timezone
 from django.db import models
+from django.utils import timezone
 
 from .utilities.strings import Strings
 from .validators import (buttonNameValidator, urlValidator,
@@ -72,7 +72,7 @@ class UserCommonInfoAbstracts(models.Model):
                               null=True,
                               verbose_name=Strings.uID_title)
 
-    userIP = models.GenericIPAddressField(default='1270.0.1',
+    userIP = models.GenericIPAddressField(default='0.0.0.0',
                                           verbose_name=Strings.userIP_title)
 
     userSession = models.CharField(max_length=500,
